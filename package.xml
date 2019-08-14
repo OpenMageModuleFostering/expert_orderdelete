@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Expert_Orderdelete</name>
+    <version>1.0.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows you to delete any useless orders. </summary>
+    <description>This extension allows you to delete any useless orders. you can delete order in  grid drop-down, grid row and customer view order&#xD;
+&#xD;
+For More Info : www.expertsofttechsolution.com;&#xD;
+Email: support@expertsofttechsolution.com</description>
+    <notes>This extension allows you to delete any useless orders. </notes>
+    <authors><author><name>Sharad Patel</name><user>coderz_expert</user><email>coderz.expert@gmail.com</email></author><author><name>Suraj Kumawat</name><user>coderz_expert</user><email>coderz.expert@gmail.com</email></author></authors>
+    <date>2014-01-30</date>
+    <time>07:26:39</time>
+    <contents><target name="magelocal"><dir name="Expert"><dir name="Orderdelete"><dir name="Block"><dir name="Adminhtml"><file name="Orderdelete.php" hash="1b5ef6c4946a09b6a2a7c812983c2e80"/><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="a5d48dbdd0650c91687475fe22198806"/><dir name="Render"><file name="Delete.php" hash="c53ec66d0501500daa6c1a689cef4041"/></dir><file name="View.php" hash="a6241fc100688749862a6912f006966a"/></dir></dir></dir><file name="Orderdelete.php" hash="b505fc90a1a991a3b83f19e16e6bba6c"/></dir><dir name="Helper"><file name="Data.php" hash="6970a5c6613a934a2aac661681bfbec5"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Orderdelete"><file name="Collection.php" hash="6224e49c15ae6cbabc59887d504d51e9"/></dir><file name="Orderdelete.php" hash="13ca7002633d5e06df5a2ccc822e69d4"/></dir><file name="Orderdelete.php" hash="b5706128821fa38db08e560c3441cd60"/><file name="Status.php" hash="f5cd62b1ae29b015ccbc646214f0d47a"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="OrderdeleteController.php" hash="932ca5dcae16cb3283f2aff4b90c9dd7"/></dir><file name="IndexController.php" hash="c7a8af3dbbe7653f049c8c5f48942b42"/></dir><dir name="etc"><file name="config.xml" hash="c90df71eab05b4b89e183f639942600e"/><file name="system.xml" hash="1343214dcc00f2e4066856d8f3430f34"/></dir><dir name="sql"><dir name="orderdelete_setup"><file name="mysql4-install-0.1.0.php" hash="b418a26648dd306fae979f80e7fe56b4"/></dir></dir></dir></dir><dir name="Mage"><dir name="Core"><dir name="Model"><file name="Config.php" hash="6607a6ade6ef97d04bedc75084639203"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Expert_Orderdelete.xml" hash="4e5bc3b280ab8d6a89483bb298afc996"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
